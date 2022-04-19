@@ -1,0 +1,33 @@
+.calculator{
+    width:360px;
+    height:650px;
+    background: rgb(44, 41, 41);
+    margin-left: 5px;
+}
+#screen{
+    width: 90%;
+    height: 70px;
+    margin-left: 13px;
+    margin-top: 20px;
+    pointer-events: none;
+}
+.buttons{
+    width: 90%;
+    height: 400px;
+    background: #fff;
+    margin-left: 17px;
+    margin-top: 50px;
+}
+.button-align{
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.keys{
+    width: 76px;
+    height: 76px;
+    font-weight: bold;
+}
+img{
+    margin-top: 200px;
+    margin-left: -60px;
+}

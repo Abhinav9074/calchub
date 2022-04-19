@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main-div">
+        <div class="calculator">
+            <div class="output">
+                <input id="screen" type="text">
+            </div>
+            <div class="buttons">
+                <table class="button-align">
+                    <tr>
+                        <td><button onclick="buttonclick(7)" class="keys">7</button></td>
+                        <td><button onclick="buttonclick(8)" class="keys">8</button></td>
+                        <td><button onclick="buttonclick(9)" class="keys">9</button></td>
+                        <td><button onclick="buttonclick('/')" class="keys">/</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclick(4)" class="keys">4</button></td>
+                        <td><button onclick="buttonclick(5)" class="keys">5</button></td>
+                        <td><button onclick="buttonclick(6)" class="keys">6</button></td>
+                        <td><button onclick="buttonclick('*')" class="keys">x</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclick(1)" class="keys">1</button></td>
+                        <td><button onclick="buttonclick(2)" class="keys">2</button></td>
+                        <td><button onclick="buttonclick(3)" class="keys">3</button></td>
+                        <td><button onclick="buttonclick('-')" class="keys">-</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="buttonclick('.')" class="keys">.</button></td>
+                        <td><button onclick="buttonclick(0)" class="keys">0</button></td>
+                        <td><button onclick="equalclick('=')" class="keys">=</button></td>
+                        <td><button onclick="buttonclick('+')" class="keys">+</button></td>
+                    </tr>
+                    <tr>
+                        <td><button onclick="aboutclick()" class="keys">About</button></td>
+                        <td><button onclick="offclick()" class="keys">Off</button></td>
+                        <td><button onclick="deleteclick()" class="keys">Del</button></td>
+                        <td><button onclick="cleartext()" class="keys">clr</button></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
